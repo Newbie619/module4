@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Hello or Goodbye</title>
+</head>
+<body>
+  <h1>Open the console to see the output</h1>
+
+  <script>
+    var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
+
+    for (var i = 0; i < names.length; i++) {
+      var name = names[i];
+      var firstLetter = name.charAt(0).toLowerCase();
+
+      if (firstLetter === 'j') {
+        console.log("Goodbye " + name);
+      } else {
+        console.log("Hello " + name);
+      }
+    }
+  </script>
+</body>
+</html>
